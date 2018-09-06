@@ -1,5 +1,4 @@
-from tkinter import*
-import random
+from tkinter import* #imports all the functions from the tkinter library
 import time
 
 root = Tk()
