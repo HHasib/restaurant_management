@@ -1,2 +1,3 @@
 # restaurant_management
-This is simple restaurant management software created using python particular for My school's food fest.
+This is a simple restaurant management software created using python3. This was created paricularly particular for my school's food fest.
+
