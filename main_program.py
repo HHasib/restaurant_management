@@ -124,53 +124,55 @@ txtSumis = Entry(f1,font=('ariel' ,16,'bold'), textvariable=Sumis , bd=6,insertw
 txtSumis.grid(row=5,column=1)
 
 
-lblSet_menu = Label(f1, font=( 'aria' ,16, 'bold' ),text="Set_menu",fg="steel blue",bd=10,anchor='w')
-lblSet_menu.grid(row=1,column=2)
+lblSet_menu = Label(f1, font=( 'aria' ,16, 'bold' ),text="Set Menu",fg="steel blue",bd=10,anchor='w')
+lblSet_menu.grid(row=6,column=0)
 txtSet_menu = Entry(f1,font=('ariel' ,16,'bold'), textvariable=Set_menu , bd=6,insertwidth=4,bg="powder blue" ,justify='left')
-txtSet_menu.grid(row=1,column=3)
+txtSet_menu.grid(row=6,column=1)
 
 lblChicken = Label(f1, font=( 'aria' ,16, 'bold' ),text="Chicken",fg="steel blue",bd=10,anchor='w')
-lblChicken.grid(row=2,column=2)
+lblChicken.grid(row=7,column=0)
 txtChicken = Entry(f1,font=('ariel' ,16,'bold'), textvariable=Chicken , bd=6,insertwidth=4,bg="powder blue" ,justify='left')
-txtChicken.grid(row=2,column=3)
+txtChicken.grid(row=7,column=1)
 
 lblDrinks = Label(f1, font=( 'aria' ,16, 'bold' ),text="Drinks",fg="steel blue",bd=10,anchor='w')
-lblDrinks.grid(row=3,column=2)
+lblDrinks.grid(row=8,column=0)
 txtDrinks = Entry(f1,font=('ariel' ,16,'bold'), textvariable=Drinks , bd=6,insertwidth=4,bg="powder blue" ,justify='left')
-txtDrinks.grid(row=3,column=3)
+txtDrinks.grid(row=8,column=1)
 
 
 
 #--------------------------------------------------------------------------------------
 lblCold_coffee = Label(f1, font=( 'aria' ,16, 'bold' ),text="Cold coffee",fg="steel blue",bd=10,anchor='w')
-lblCold_coffee.grid(row=4,column=2)
+lblCold_coffee.grid(row=9,column=0)
 txtCold_coffee = Entry(f1,font=('ariel' ,16,'bold'), textvariable=Cold_coffee , bd=6,insertwidth=4,bg="powder blue" ,justify='left')
-txtCold_coffee.grid(row=4,column=3)
+txtCold_coffee.grid(row=9,column=1)
 
 
 
 lblTotal = Label(f1, font=( 'aria' ,16, 'bold' ),text="Total",fg="steel blue",bd=10,anchor='w')
-lblTotal.grid(row=5,column=2)
+lblTotal.grid(row=1,column=2)
 txtTotal = Entry(f1,font=('ariel' ,16,'bold'), textvariable=Total , bd=6,insertwidth=4,bg="powder blue" ,justify='left')
-txtTotal.grid(row=5,column=3)
+txtTotal.grid(row=1,column=3)
 
 #-----------------------------------------buttons------------------------------------------
-lblTotal = Label(f1,text="---------------------",fg="white")
-lblTotal.grid(row=6,columnspan=3)
+
 
 btnTotal=Button(f1,padx=16,pady=8, bd=10 ,fg="black",font=('ariel' ,16,'bold'),width=10, text="TOTAL", bg="powder blue",command=Ref)
-btnTotal.grid(row=7, column=1)
+btnTotal.grid(row=1, column=4)
 
 btnreset=Button(f1,padx=16,pady=8, bd=10 ,fg="black",font=('ariel' ,16,'bold'),width=10, text="RESET", bg="powder blue",command=reset)
-btnreset.grid(row=7, column=2)
+btnreset.grid(row=3, column=4)
 
 btnexit=Button(f1,padx=16,pady=8, bd=10 ,fg="black",font=('ariel' ,16,'bold'),width=10, text="EXIT", bg="powder blue",command=qexit)
-btnexit.grid(row=7, column=3)
+btnexit.grid(row=5, column=4)
 	
 	
 
 
 	
+
+
+
 
 
 
