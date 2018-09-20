@@ -184,8 +184,8 @@ def Ref():
 	costofburger = Burger*250
 	costofpizza=Pizza*100
 	costofsumi = Sumi*80
-	costofdoughnut = Doughnut*100
-	costofset = Set_menu*300
+	costofdoughnut = Doughnut*120
+	costofset = Set_menu*280
 	costofsub = Sub*120
 	costofchick = Chicken*100
 	costoffuchka = Fuchka*50
